@@ -1,6 +1,6 @@
 import React from 'react'
 import Tsection from '../Components/ToolsSection/Tsection'
-import PSection from '../Components/PresentationSection/PSection'
+import Psection from '../Components/PresentationSection/Psection'
 import Features from '../Components/Features/Features'
 import Quality from '../Components/QualitySection/Quality'
 import Reviews from '../Components/reviews/Reviews'
@@ -14,7 +14,7 @@ function LandingPage() {
             <MainSection />
             <ScreenShot />
             <Tsection />
-            <PSection />
+            <Psection />
             <Features />
             <Quality />
             <Reviews />

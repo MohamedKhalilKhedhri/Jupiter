@@ -10,7 +10,7 @@ import DarkChat from "../../assets/DarkChat.svg"
 import { ThemeContext } from '../../Context/ThemeContext'
 import { motion } from 'framer-motion'
 
-function PSection() {
+function Psection() {
   const {isdarkMode} = useContext(ThemeContext);
   return (
     <section className='lg:p-20 md:p-14 sm:p-8 p-4  mt-14 bg-white dark:bg-black'>
@@ -25,7 +25,7 @@ function PSection() {
   )
 }
 
-export default PSection
+export default Psection
 
 
 
